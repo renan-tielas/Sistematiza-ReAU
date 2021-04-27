@@ -14,6 +14,29 @@
   justify-content: center;
   align-items: center;
 }
+.texto {
+  font-size: 1.2rem;
+  font-weight:400 ;
+  padding: 2rem 6rem;
+  text-align: justify;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.negrito {
+  /* font-size: 1.8rem; */
+  color:#000000;
+  font-weight:650 ;
+  display: inline;
+}
+.rosito {
+  /* font-size: 1.8rem; */
+  color:#ff5757;
+  display: inline;
+  font-weight:750 ;
+}
 .container{
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -52,6 +75,16 @@
   justify-content: center;
   align-items: center;
 }
+
+.titulo  {
+  color: #000000;
+  text-decoration: none;
+  text-size-adjust: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  /* text-ds ; */
+}
+
 
 .title a {
   color: #0070f3;

@@ -20,24 +20,35 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
+          
+          <Link
+            href="/Guia/Participar"          >
+            <a className={styles.card}>
             <h3>Como participar &rarr;</h3>
             <p>Indicações de como se inteirar no processo, e contribuir</p>
           </a>
-
-          <a href="/" className={styles.card}>
+          </Link>
+          <Link
+            href="/Guia/Passo"   >
+          <a className={styles.card}>
             <h3>Em que passo estamos &rarr;</h3>
             <p>Veja o que ja fizemos, e no que estamos focando agora</p>
           </a>
 
+        </Link>
+
+        <Link
+            href="/Guia/Proposta"   >
           <a
             href="/"
             className={styles.card}
           >
             <h3>Resumo da Proposta &rarr;</h3>
             <p>Descrever a experiência da rede de maneira sistêmica e analítica: o funcionamento da ReAU.</p>
-          </a>
+          </a></Link>
 
+          <Link
+            href="/Guia/Referencias"   >
           <a
             href="/"
             className={styles.card}
@@ -46,16 +57,26 @@ export default function Home() {
             <p>
             Conceitos para referência (da ANA, de Holliday - livros na pasta Referencias)
             </p>
-          </a>
+          </a></Link>
+
+
+
+          <Link href="/Guia/Metodologia" >
+
           <a
             href="/"
             className={styles.card}
           >
+
+
             <h3>Metodologia &rarr;</h3>
             <p>
             Metodologia deste processo de sistematização - aberta a sugestões            </p>
           </a>
+          </Link>
 
+          <Link
+            href= "/Guia/Perguntas">
           <a
             href="/"
             className={styles.card}
@@ -63,8 +84,11 @@ export default function Home() {
             <h3>Perguntas Orientadoras &rarr;</h3>
             <p>
               Perguntas que estruturam os objetivos, meios, conteudos e processo de sistematização 
+              <br/><br/>
+              Clicar nas perguntas leva ao item referente na sistematização.
             </p>
           </a>
+          </Link>
           <Link
             href="/Dimensoes/DimensoesE"
             

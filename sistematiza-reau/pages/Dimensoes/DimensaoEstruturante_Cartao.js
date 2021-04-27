@@ -1,11 +1,11 @@
  import Link from 'next/link'
  
  import styles from '../../styles/Home.module.css'
- function DimensãoEstruturante_Cartao({titulo,significado,propositos,componentes,elementos,exemplares}) {
+ function DimensãoEstruturante_Cartao({dimensao}) {
     // [significado,propositos,dinamica,temporalidade]
 return <div>
-    <div className={styles.cartao_dim}>
-      <div className={}>{titulo}</div>
+    {/* <div className={styles.cartao_dim}>
+      <div className={styles.titulo}>{titulo}</div>
       <h2>Significado</h2>
       {significado}
 
@@ -14,7 +14,7 @@ return <div>
 
       <h2>Componentes</h2>
       {componentes}
-      </div>
+      </div> */}
   
 </div>
 }
