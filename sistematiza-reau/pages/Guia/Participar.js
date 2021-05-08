@@ -31,7 +31,7 @@ function Participar() {
                     </main>
                     <Link href="/">
          <a
-         className={styles.card}>Voltar</a>
+         className={styles.cartao}>Voltar</a>
        </Link>
                     </div>
     )

@@ -30,7 +30,7 @@ Das perspectivas: social, organizativa, virtual, conceitual-visual, <br />
 let resposta4 = <div>
 
 
-Penso que principalmente o momento atual.<br />
+Principalmente o momento atual.<br />
 Quando relevante podemos nos valer das experiências e aprendizados do que já ocorreu.<br />
 E quando oportuno prever ações e estratégias futuras.<br />
     </div>
@@ -114,7 +114,7 @@ Podemos dividir o funcionamento em diferentes dimensões?'
             </main>
             <Link href="/">
                 <a
-                    className={styles.card}>Voltar</a>
+                    className={styles.cartao}>Voltar</a>
             </Link>
         </div>
     )

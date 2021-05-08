@@ -46,7 +46,7 @@ Contribuições podem ser feitas através do whatsapp, email, ou alteração do 
                     </main>
                     <Link href="/">
          <a
-         className={styles.card}>Voltar</a>
+         className={styles.cartao}>Voltar</a>
        </Link>
                     </div>
     )

@@ -38,7 +38,7 @@ Abaixo está uma conceituação de sistematização de acordo com a experiência
                     </main>
                     <Link href="/">
          <a
-         className={styles.card}>Voltar</a>
+         className={styles.cartao}>Voltar</a>
        </Link>
                     </div>
     )

@@ -34,7 +34,7 @@ Construção do formulário para participação
                     </main>
                     <Link href="/">
          <a
-         className={styles.card}>Voltar</a>
+         className={styles.cartao}>Voltar</a>
        </Link>
                     </div>
     )

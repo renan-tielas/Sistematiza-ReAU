@@ -23,14 +23,14 @@ export default function Home() {
           
           <Link
             href="/Guia/Participar"          >
-            <a className={styles.card}>
+            <a className={styles.cartao}>
             <h3>Como participar &rarr;</h3>
             <p>Indicações de como se inteirar no processo, e contribuir</p>
           </a>
           </Link>
           <Link
             href="/Guia/Passo"   >
-          <a className={styles.card}>
+          <a className={styles.cartao}>
             <h3>Em que passo estamos &rarr;</h3>
             <p>Veja o que ja fizemos, e no que estamos focando agora</p>
           </a>
@@ -41,7 +41,7 @@ export default function Home() {
             href="/Guia/Proposta"   >
           <a
             href="/"
-            className={styles.card}
+            className={styles.cartao}
           >
             <h3>Resumo da Proposta &rarr;</h3>
             <p>Descrever a experiência da rede de maneira sistêmica e analítica: o funcionamento da ReAU.</p>
@@ -51,7 +51,7 @@ export default function Home() {
             href="/Guia/Referencias"   >
           <a
             href="/"
-            className={styles.card}
+            className={styles.cartao}
           >
             <h3>Referencias de Sistematização &rarr;</h3>
             <p>
@@ -65,7 +65,7 @@ export default function Home() {
 
           <a
             href="/"
-            className={styles.card}
+            className={styles.cartao}
           >
 
 
@@ -79,7 +79,7 @@ export default function Home() {
             href= "/Guia/Perguntas">
           <a
             href="/"
-            className={styles.card}
+            className={styles.cartao}
           >
             <h3>Perguntas Orientadoras &rarr;</h3>
             <p>
@@ -89,13 +89,25 @@ export default function Home() {
             </p>
           </a>
           </Link>
+
+          
           <Link
             href="/Dimensoes/DimensoesE"
             
           >
             <a
-            className={styles.card}>
+            className={styles.cartao}>
             <h1>Dimensões</h1>
+            </a>
+          </Link>
+
+          <Link
+            href="/Site/Quadro/Quadro"
+            
+          >
+            <a
+            className={styles.cartao}>
+            <h1>Quadro</h1>
             </a>
           </Link>
 

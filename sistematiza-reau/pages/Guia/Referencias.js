@@ -45,7 +45,7 @@ Assim, busca-se compreender a experiência, valorizar os saberes das pessoas env
                     </main>
                     <Link href="/">
          <a
-         className={styles.card}>Voltar</a>
+         className={styles.cartao}>Voltar</a>
        </Link>
                     </div>
     )
