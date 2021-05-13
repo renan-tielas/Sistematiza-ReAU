@@ -1,9 +1,14 @@
 import styles from '../../../styles/Home.module.css'
 
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+import redutores from '../Redutores/indice_Red'
+
 import Grade from './Grade'
 import Bloco from './Bloco'
 import Descricao from './Descricao'
-
+import Controle from './Controle'
+import Mensagem from './Componentes/Mensagem'
 
 
 
@@ -16,6 +21,8 @@ function Quadro() {
       <Grade/>
       <Bloco/>
       <Descricao/>
+      <Controle/>
+      <Mensagem/>
     </div>
   );
 }

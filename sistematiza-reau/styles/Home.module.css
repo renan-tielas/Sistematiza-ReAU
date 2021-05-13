@@ -95,7 +95,9 @@ grid-area: r;}
   border-style: solid;
   width: var(--tile-size);
   height: var(--tile-size);
-  border-width: var(--border-width);
+  
+  margin: var(--margin);
+  border-width: var(--border-width);  
   border-left-color: var(--border-left-color);
   border-top-color: var(--border-top-color);
   border-right-color: var(--border-right-color);
@@ -104,6 +106,26 @@ grid-area: r;}
 }
 
 
+/* controls */
+.controle {
+  grid-area: b;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Control Button */
+.controle_botao {
+  --size: calc(var(--tile-size) * 1.2);
+  width: var(--size);
+  height: var(--size);
+  text-align: center;
+  display: inline;
+  border-width: 5px;
+  border-top-color: var(--button-color-t);
+  border-left-color: var(--button-color-l);
+  border-right-color: var(--button-color-r);
+  border-bottom-color: var(--button-color-b);
+}
 
 
 /* Score Board */
@@ -118,8 +140,20 @@ grid-area: r;}
 }
 
 
-
-
+/* Message Popup Styles */
+.mensagem {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--tile-size) * 10);
+  height: calc(var(--tile-size) * 10);
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.mensagem.hidden {
+  display: none;
+}
 
 /*  Resto do Site  ---------------------- */
 .dimensao{
