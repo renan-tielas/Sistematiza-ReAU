@@ -52,6 +52,24 @@
   border-bottom-color: var(--border-bottom-color);
   border-radius : var(--border-radius)
 }
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), var(--tile-size));
+  grid-gap: 0;
+  align-self: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/*  Resto do Site  ---------------------- */
 .dimensao{
   padding: 2rem 6rem;
 
