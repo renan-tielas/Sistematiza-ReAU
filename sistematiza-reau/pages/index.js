@@ -101,7 +101,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link
+          {/* <Link
             href="/Site/Quadro/Quadro"
             
           >
@@ -109,7 +109,19 @@ export default function Home() {
             className={styles.cartao}>
             <h1>Quadro</h1>
             </a>
-          </Link>
+          </Link> */}
+
+
+          {/* <Link
+            href="/Rega/Entidades"
+            
+          >
+            <a
+            className={styles.cartao}>
+            <h1>Rega</h1>
+            </a>
+          </Link> */}
+
 
         </div>
       </main>

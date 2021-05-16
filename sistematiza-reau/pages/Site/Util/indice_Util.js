@@ -4,9 +4,9 @@ export const random = (min, max) => {
 
   // Returns the default grid
 export const gridDefault = () => {
-    const rows = 18
+    const rows = 12
     const cols = 10
-    const array = []
+    const array = [18,10]
   
     // Fill array with 18 arrays each containing
     // 10 zeros (0)
@@ -137,7 +137,7 @@ export const shapes = [
 export const defaultState = () => {
     return {
       // Create an empty grid
-      grid: gridDefault(),
+      grade: gridDefault(),
       // Get a new random shape
       shape: randomShape(),
       // set rotation of the shape to 0

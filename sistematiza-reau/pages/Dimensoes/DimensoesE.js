@@ -4,7 +4,6 @@ import DimECartão from './DimensaoEstruturante_Cartao'
 import styles from '../../styles/Home.module.css'
 import React from 'react'
 import { useState } from 'react'
-
 let dimensao_clicada
 function DimensõesE() {
 
@@ -54,14 +53,21 @@ function DimensõesE() {
       }
       const comunicacao = {
             titulo: "Comunicação",
-            perguntas: [],
+            perguntas: [
+                  'Como nos comunicamos?',
+                  'Como queremos nos comunicar?'
+            ],
+            respostas:[
+                  'resp1',
+                  'De forma livre, fácil de ser sintetizada para relato, propositiva (encaminhativa), e também organizada em temas e tópicos, responsável (com lembranças de comprometimentos, encaminhamentos) '],
             significado: "Detalha as relações/elos de comunicação entre os nós",
             valores: [],
-            propositos: ['não preenchido'],
+            propositos: ['Buscar representar as principais formas de comunicação e interação dos nós da rede.'],
             // componentes: "",
             elementos: ['a','b'],
             // exemplares: "",
-            perspectivas: ['Comunicação Interna', 'Comunicação Externa'],
+            perspectivas_A: ['Presencial', 'Virtual'],
+            perspectivas_B: ['Comunicação Interna', 'Comunicação com o Externo'],
             // escalas: " ",
             dinamicas: ["Como acontece a comunicação? Que efeitos os meios de comunicação escolhidos tem? "],
             desafios: "",

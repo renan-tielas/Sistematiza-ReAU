@@ -1,9 +1,11 @@
+import { defaultState } from '../Util/indice_Util'
+
 import {
     MOVE_RIGHT, MOVE_LEFT, MOVE_DOWN, ROTATE,
     PAUSE, RESUME, RESTART, GAME_OVER
   } from '../Acoes/ACOES'
   
-  const Redutor = (state = {}, action) => {
+  const Redutor = (state = defaultState(), action) => {
   
     switch(action.type) {
       case ROTATE:
